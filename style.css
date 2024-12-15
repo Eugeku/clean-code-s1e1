@@ -18,8 +18,9 @@
 }
 
 @media (max-width:768px) {
-.todo-app-info { text-align: center;
-}
+  .todo-app-info {
+    text-align: center;
+  }
 }
 .todo-app-main {
   display: block;
