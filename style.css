@@ -5,7 +5,7 @@
   font-family: Lato, sans-serif;
 }
 
-.todo-app-info {
+.app-info {
   width: 500px;
   margin: 0 auto;
   display: block;
@@ -21,12 +21,12 @@
 }
 
 @media (max-width:768px) {
-  .todo-app-info {
+  .app-info {
     text-align: center;
   }
 }
 
-.todo-app-main {
+.app-main {
   display: block;
   width: 500px;
   margin: 0 auto 0;
