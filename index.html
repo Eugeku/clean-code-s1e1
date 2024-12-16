@@ -5,52 +5,52 @@
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
-<body class="body">
-  <header class="app-info">
-    <img class="info-image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix image">
-    <a class="info-link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+<body class="app">
+  <header class="app__info">
+    <img class="app__info__image" src="./eisenhower-matrix.jpg" alt="Eisenhower matrix image">
+    <a class="app__info__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </header>
-  <main class="app-main">
-    <section class="new-items">
-      <label class="new-item-label" for="new-item-input">Add Item</label>
-      <div class="new-item-wrapper">
-        <input id="new-item-input" class="item-input" type="text">
-        <button class="add-button">Add</button>
+  <main class="app__main">
+    <section class="items-block items-block_new">
+      <label class="items-block__label" for="new-item-input">Add Item</label>
+      <div class="items-block__wrapper">
+        <input id="new-item-input" class="items-block__input item__input" type="text">
+        <button class="items-block__add-button">Add</button>
       </div>
     </section>
-    <section class="todo-items">
-      <h3 class="heading-3">Todo</h3>
-      <ul id="todo-items">
+    <section class="items-block items-block_todo">
+      <h3 class="items-block__header">Todo</h3>
+      <ul class="items-block__list" id="todo-items">
         <li class="item">
-          <input class="item-checkbox" type="checkbox">
-          <label class="item-label">Pay Bills</label>
-          <input class="item-input" type="text">
-          <button class="edit-button">Edit</button>
-          <button class="delete-button">
-            <img class="delete-image" src="./remove.svg" alt="Delete image">
+          <input class="item__checkbox" type="checkbox">
+          <label class="item__label">Pay Bills</label>
+          <input class="item__input" type="text">
+          <button class="item__edit-button">Edit</button>
+          <button class="item__delete-button">
+            <img class="item__delete-button__image" src="./remove.svg" alt="Delete image">
           </button>
         </li>
-        <li class="item edit">
-          <input class="item-checkbox" type="checkbox">
-          <label class="item-label">Go Shopping</label>
-          <input class="item-input" type="text" value="Go Shopping">
-          <button class="edit-button">Save</button>
-          <button class="delete-button">
-            <img class="delete-image" src="./remove.svg" alt="Delete image">
+        <li class="item item_edit">
+          <input class="item__checkbox" type="checkbox">
+          <label class="item__label">Go Shopping</label>
+          <input class="item__input" type="text" value="Go Shopping">
+          <button class="item__edit-button">Save</button>
+          <button class="item__delete-button">
+            <img class="item__delete-button__image" src="./remove.svg" alt="Delete image">
           </button>
         </li>
       </ul>
     </section>
-    <section class="completed-items">
-      <h3 class="heading-3">Completed</h3>
-      <ul id="completed-items">
+    <section class="items-block items-block_completed">
+      <h3 class="items-block__header">Completed</h3>
+      <ul class="items-block__list" id="completed-items">
         <li class="item">
-          <input class="item-checkbox" type="checkbox" checked>
-          <label class="item-label">See the Doctor</label>
-          <input class="item-input" type="text">
-          <button class="edit-button">Edit</button>
-          <button class="delete-button">
-            <img class="delete-image" src="./remove.svg" alt="Delete image">
+          <input class="item__checkbox" type="checkbox" checked>
+          <label class="item__label">See the Doctor</label>
+          <input class="item__input" type="text">
+          <button class="item__edit-button">Edit</button>
+          <button class="item__delete-button">
+            <img class="item__delete-button__image" src="./remove.svg" alt="Delete image">
           </button>
         </li>
       </ul>
